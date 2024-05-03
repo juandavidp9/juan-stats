@@ -1,8 +1,8 @@
-## juan-stats
+<img src="https://drive.google.com/uc?id=10F8iwc-wW0PTSe3C3sia579Jl2ll5jfP" alt="logo" width="500">
+
 Python module that calculates the probability density function, along with the median and standard deviation
 for numerical datasets exhibiting Gaussian or Binomial distributions.
 
-<img src="https://drive.google.com/uc?id=10F8iwc-wW0PTSe3C3sia579Jl2ll5jfP" alt="logo" width="200">
 
 ### Installation
 Install libraries necessary for the project
