@@ -136,7 +136,7 @@ class Gaussian(Distribution):
 			y.append(self.pdf(tmp))
 
 		# make the plots
-		fig, axes = plt.subplots(8,4.8)
+		fig, axes = plt.subplots(figsize=(8,4.8))
 		axes.hist(self.data, density=True)
 		axes.plot(x, y, label='Probability Density Function')
 		axes.set_title('Normalized Histogram of Data')
