@@ -40,7 +40,7 @@ gaussian_one.plot_histogram_pdf()
 ```
 Binomial(0.4, 25)
 #or
-Binomial(p=0.4, n=25)
+Binomial(prob=.4, size=25)
 ```
 
 - Read numerical datasets from a CSV file or a Python list. The dataset should be composed of 0 and 1.
