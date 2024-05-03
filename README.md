@@ -8,7 +8,6 @@ for numerical datasets exhibiting Gaussian or Binomial distributions.
 
 
 ### Installation
-Install libraries necessary for the project
 ```
 pip install juan-stats
 ```
