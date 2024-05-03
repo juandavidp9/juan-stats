@@ -10,6 +10,7 @@ for numerical datasets exhibiting Gaussian or Binomial distributions.
 ### Installation
 ```
 pip install juan-stats
+from juan_stats import *
 ```
 
 ### Features Gaussian Distribution
