@@ -148,7 +148,7 @@ class Gaussian(Distribution):
 		
 		
 		
-	def _add_(self, other):
+	def __add__(self, other):
 		
 		"""Function to add together two Gaussian distributions
 		
@@ -167,7 +167,7 @@ class Gaussian(Distribution):
 		return result
 		
 		
-	def _repr_(self):
+	def __repr__(self):
 	
 		"""Function to output the characteristics of the Gaussian instance
 		
