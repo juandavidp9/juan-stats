@@ -119,25 +119,21 @@ class Binomial(Distribution):
 
 
     def plot_bar_pdf(self):
-
         """Function to plot the pdf of the binomial distribution
         
         Args:
             None
         
         Returns:
-            list: x values for the pdf plot
-            list: y values for the pdf plot
-            
+            None
         """
-        
         x = []
         y = []
         
         # calculate the x values to visualize
         for i in range(self.n + 1):
             x.append(i)
-            y.append(self.pdf(i))
+            y.append(self.pmf(i))
 
         # make the plots
         plt.bar(x, y)
