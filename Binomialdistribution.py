@@ -101,22 +101,22 @@ class Binomial(Distribution):
         
         
         
-    def pdf(self, k):
-        """Probability density function calculator for the binomial distribution.
+    def pmf(self, k):
+        """Probability mass function calculator for the binomial distribution.
         
         Args:
-            x (float): point for calculating the probability density function
+            k (int): number of successes
             
-        
         Returns:
-            float: probability density function output
+            float: probability mass function output
         """
         
-        a = math.factorial(self.n) / (math.factorial(k) * (math.factorial(self.n - k)))
-        b = (self.p ** k) * (1 - self.p) ** (self.n - k)
+        binomial_coefficient = math.comb(self.n, k)
+        probability_of_success = self.p ** k
+        probability_of_failure = (1 - self.p) ** (self.n - k)
         
-        return a * b
-        
+        return binomial_coefficient * probability_of_success * probability_of_failure
+
 
     def plot_bar_pdf(self):
 
